@@ -38,7 +38,6 @@ class TwitterBot:
                 bot.get('https://twitter.com'+link)
                 try:
                     bot.find_element_by_class_name('HeartAnimation').click()
-                    """"""follow-text""""""
                     time.sleep(10)
                 except Exception as ex:
                     time.sleep(60)
